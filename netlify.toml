@@ -13,4 +13,4 @@
 # Environment variables
 [build.environment]
   NODE_VERSION = "18"
-  NODE_ENV = "production"
+  NPM_FLAGS = "--include=dev"
