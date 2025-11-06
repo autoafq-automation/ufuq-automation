@@ -1,0 +1,16 @@
+[build]
+  # Build command for Vite (frontend only)
+  command = "npm run build:client"
+  # Directory to publish (Vite outputs to dist/public)
+  publish = "dist/public"
+
+# Redirect all routes to index.html for client-side routing (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables
+[build.environment]
+  NODE_VERSION = "18"
+  NODE_ENV = "production"
