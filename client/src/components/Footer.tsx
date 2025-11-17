@@ -1,7 +1,7 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Cpu } from 'lucide-react';
-import { FaInstagram, FaFacebook, FaYoutube, FaXTwitter, FaReddit, FaGithub, FaLinkedin } from 'react-icons/fa6';
+import { FaInstagram, FaFacebook, FaYoutube, FaXTwitter, FaReddit, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa6';
 
 export function Footer() {
   const { t, language } = useLanguage();
@@ -16,9 +16,15 @@ export function Footer() {
     },
     { 
       name: 'Instagram', 
-      url: 'https://www.instagram.com/ufuq.automation?igsh=c2t0djd0a2J2bndt',
+      url: 'https://www.instagram.com/ufuq_automation?igsh=OWlzNTltcThwZHM4&utm_source=qr',
       icon: FaInstagram,
       color: 'hover:text-pink-500'
+    },
+    { 
+      name: 'WhatsApp', 
+      url: 'https://wa.me/13159618871',
+      icon: FaWhatsapp,
+      color: 'hover:text-green-500'
     },
     { 
       name: 'Facebook', 

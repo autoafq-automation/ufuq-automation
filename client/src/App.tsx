@@ -21,6 +21,7 @@ import MagazineArticle from "@/pages/MagazineArticle";
 import MediaStudio from "@/pages/MediaStudio";
 import BusinessReviews from "@/pages/BusinessReviews";
 import Countries from "@/pages/Countries";
+import USMarket from "@/pages/USMarket";
 import Contact from "@/pages/Contact";
 import FAQ from "@/pages/FAQ";
 import PrivacyPolicy from "@/pages/PrivacyPolicy";
@@ -45,6 +46,7 @@ function Router() {
       <Route path="/media-studio" component={MediaStudio} />
       <Route path="/reviews" component={BusinessReviews} />
       <Route path="/countries" component={Countries} />
+      <Route path="/us-market" component={USMarket} />
       <Route path="/contact" component={Contact} />
       <Route path="/faq" component={FAQ} />
       <Route path="/privacy-policy" component={PrivacyPolicy} />

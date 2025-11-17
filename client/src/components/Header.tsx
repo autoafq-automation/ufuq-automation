@@ -32,6 +32,7 @@ export function Header() {
     { path: '/media-studio', label: t('nav.mediaStudio') },
     { path: '/reviews', label: t('nav.reviews') },
     { path: '/countries', label: t('nav.countries') },
+    { path: '/us-market', label: language === 'ar' ? 'السوق الأمريكي' : 'US Market' },
     { path: '/contact', label: t('nav.contact') },
   ];
 
